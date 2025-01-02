@@ -1,0 +1,47 @@
+@import "color";
+@import "mixin";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//1.varibles
+
+
+//2.operators
+
+//3.mixins
+
+//4.nested
+//5.parameters
+@mixin text($font) {
+    font-size: $font;
+    letter-spacing: 2px;
+    text-transform: capitalize
+}
+
+.container {
+    background-color: $primary-color;
+    height: 100vh;
+    width: 100vw;
+    h1 {
+        @include text(16px);
+        color: $h1-color;
+
+        &:hover {
+            color: $secondary-color;
+            cursor: pointer;
+        }
+    }
+
+    p {
+        @include text(20px);
+        color: $p-color;
+
+        &:hover {
+            color: blue;
+        }
+    }
+}

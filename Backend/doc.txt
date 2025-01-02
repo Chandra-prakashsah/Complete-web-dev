@@ -1,0 +1,44 @@
+Node js:-
+Node.js is an open-source, cross-platform,JavaScript runtime environment
+that runs on the V8 JavaScript engine and executes JavaScript code outside a web browser.
+
+npm:-
+Stands for Node Package Manager, a tool to manage packages
+ (install, update, or uninstall libraries).
+
+npx:-
+Stands for Node Package Executor, used to execute Node packages
+directly without globally installing them.
+
+intall node js project:-
+npm init -y
+
+install nodemon:-
+npm install -g nodemon
+run this in power shell to alow to run nodemon:-  
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Types of module in node js:-
+1. core module
+    -core module is already installed in node js by default like fs, path, http etc.
+2. third party module
+    -third party module is installed using npm
+3. custom module
+    -custom module is created by developer
+
+express js:-
+express js is a lighweight and flexible node js web application framework.
+it simplifies building web applications and APIs by providing a robust set of features
+like routing, middleware, templating, and more.
+
+core features of express js:-
+1. routing
+    -define application routes using HTTP methods (GET, POST, PUT, DELETE).
+    support dynamic and nested routes.
+2. middleware
+    -add functionality to the request and response cycle.
+    can modify or transform the request and response objects.
+3. templating
+    -render dynamic content using template engines like EJS, Pug, or Handlebars.
+4.restfull api 
+    -create RESTful APIs using HTTP methods (GET, POST, PUT, DELETE)

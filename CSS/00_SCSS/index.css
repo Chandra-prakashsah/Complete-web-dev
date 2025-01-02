@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: dodgerblue;
+  height: 100vh;
+  width: 100vw;
+}
+.container h1 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: #2b0ca4;
+}
+.container h1:hover {
+  color: #c5dec5;
+  cursor: pointer;
+}
+.container p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: green;
+}
+.container p:hover {
+  color: blue;
+}/*# sourceMappingURL=index.css.map */
