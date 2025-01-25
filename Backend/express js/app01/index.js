@@ -1,7 +1,9 @@
 const express = require("express");
+const {checkToken} = require("./checkToken");
+require("dotenv").config();
 const app = express();
 app.use(express.json());
-const Port = 3000;
+const Port = process.env.Port||5000;
 app.get("/", (req, res) => {
     res.send({
         status: 200,
@@ -10,7 +12,7 @@ app.get("/", (req, res) => {
     });
 })
 
-app.get("/news", (req, res) => {
+app.get("/news",checkToken, (req, res) => {
     res.send({
         status: 200,
         message: "news page",
@@ -52,5 +54,5 @@ app.post("/news", (req, res) => {
 })
 
 app.listen(Port, () => {
-    console.log("Server is running on port 3000");
+    console.log(`server is running on port ${Port}`);
 })

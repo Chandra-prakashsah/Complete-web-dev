@@ -42,3 +42,108 @@ core features of express js:-
     -render dynamic content using template engines like EJS, Pug, or Handlebars.
 4.restfull api 
     -create RESTful APIs using HTTP methods (GET, POST, PUT, DELETE)
+
+install express js:-
+npm install express
+
+.env file:-
+create .env file and add environment variables like database url, port etc.
+npm install dotenv
+use:-
+require('dotenv').config(); //call this in app.js on top
+access:-
+process.env.variable_name
+
+
+mongo db:-
+mongo db is a NoSQL database that stores data in a flexible, JSON-like format.
+It is desined for high volume data storage.
+Mongo db most commnly used with Node js.
+Mongodb provide powerfull aggregation.
+
+install mongo db:-
+npm install mongodb
+
+mongo db commands:-
+
+1. connect to mongo db:-
+    mongodb://localhost:27017
+
+2. create database:-
+    use database_name
+
+3. create collection:-
+    db.createCollection('collection_name')
+
+4. insert data:-
+    db.collection_name.insertOne(data)
+
+5. find data:-
+    db.collection_name.find()
+
+6. update data:-
+    db.collection_name.updateOne({field:value},{ $set: { field_to_update: "new_value" } })
+
+7. delete data:-
+    db.collection_name.deleteOne()
+
+8. drop collection:-
+    db.collection_name.drop()
+
+9. drop database:-
+    db.dropDatabase()
+
+10. aggregate data:-
+    db.collection_name.aggregate()
+
+11. sort data:-
+    db.collection_name.sort()
+
+12. limit data:-
+    db.collection_name.limit()
+
+13. skip data:-
+    db.collection_name.skip()
+
+14. count data:-
+    db.collection_name.count()
+
+15. distinct data:-
+    db.collection_name.distinct()
+
+16. group data:-
+    db.collection_name.group()
+
+17. project data:-
+    db.collection_name.project()
+
+18. rename data:-
+    db.collection_name.rename()
+
+19. create index:-
+    db.collection_name.createIndex()
+
+20. drop index:-
+    db.collection_name.dropIndex()
+
+install mongo db client:-
+npm install mongodb
+
+connect to mongo db:-
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb://localhost:27017";
+const client = new MongoClient(uri, { useNewUrlParser: true });
+client.connect(err => {
+  const collection = client.db("myDatabase").collection("documents");
+  // ...
+});
+
+
+mongoose:-
+mongoose is an ODM (Object Data Modeling) library for MongoDB.
+
+install mongoose:-  
+npm install mongoose
+
+mvcr:-(model view controller and routing)
+mvcr is a design pattern that separates the presentation layer from the business logic and data access layers.
