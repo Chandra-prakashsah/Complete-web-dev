@@ -147,3 +147,9 @@ npm install mongoose
 
 mvcr:-(model view controller and routing)
 mvcr is a design pattern that separates the presentation layer from the business logic and data access layers.
+
+resolve cors issues:-
+npm install cors
+ use in index.js file on top
+app.use(cors());
+
