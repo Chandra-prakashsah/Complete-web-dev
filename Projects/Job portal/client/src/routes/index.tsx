@@ -13,34 +13,48 @@ const routes = createBrowserRouter([
         element: <Landing />
       },
       {
-        path: '/register',
+        path: 'register',
         element: <Register />
       },
       {
-        path: '/login',
+        path: 'login',
         element: <Login />
       },
+      {
+        path:'dashboard',
+        element: <DashboardLayout />,
+        children: [
+          {
+            index: true,
+            element: <AddJobs />
+          },
+          {
+            path: 'stats',
+            element: <Stats />
+          },
+          {
+            path: 'profile',
+            element: <Profile />
+          },
+          {
+            path: 'add-jobs',
+            element: <AddJobs />
+          },
+          {
+            path: 'all-jobs',
+            element: <AllJobs />
+          },
+          {
+            path: 'edit-job/:id',
+            element: <EditJob />
+          },
+          {
+            path:'admin',
+            element: <Admin />
+          }
+        ]
+      }
     ]
-  },
-  {
-    path: '/stats',
-    element: <Stats />
-  },
-  {
-    path: '/profile',
-    element: <Profile />
-  },
-  {
-    path: '/add-jobs',
-    element: <AddJobs />
-  },
-  {
-    path: '/all-jobs',
-    element: <AllJobs />
-  },
-  {
-    path: '/edit-job/:id',
-    element: <EditJob />
   },
 ])
 
