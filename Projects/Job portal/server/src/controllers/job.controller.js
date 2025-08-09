@@ -3,15 +3,13 @@ import jobModel from "../models/job.model.js";
 import {StatusCodes} from 'http-status-codes'
 const createJob = async (req, res) => {
     const { company, position } = req.body
-    if (!company || !position) {
-        throw new BadRequestError("company and position required")
-    }
-    const result = await jobModel.create({ company, position });
+    req.body.createdBy=req.user.userId;
+    const result = await jobModel.create(req.body);
     res.status(StatusCodes.CREATED).json({ message: "job created", job: result })
 }
 
 const getAllJobs = async (req, res) => {
-    const result = await jobModel.find({});
+    const result = await jobModel.find({createdBy:req.user.userId});
     res.status(StatusCodes.OK).json({ jobs: result })
 }
 

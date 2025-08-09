@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import { HomeLayout, Register, AddJobs, Admin, AllJobs, DashboardLayout, DeleteJob, EditJob, Error, Login, Landing, Stats, Profile } from '../pages'
-
+import { action as RegisterAction } from "../pages/register";
 
 const routes = createBrowserRouter([
   {
@@ -14,7 +14,8 @@ const routes = createBrowserRouter([
       },
       {
         path: 'register',
-        element: <Register />
+        element: <Register />,
+        action:RegisterAction
       },
       {
         path: 'login',

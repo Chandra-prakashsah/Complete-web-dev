@@ -1,13 +1,16 @@
 import React from 'react'
 import Wraper from '../../assets/wrappers/RegisterAndLoginPage'
 import { Logo,FormRow } from '../../components';
-import { Link } from 'react-router-dom';
+import { Form, Link } from 'react-router-dom';
+export const action=(data:any)=>{
+  console.log(data)
+}
 const Register = () => {
 
   const onChange = (e: any) => {}
   return (
    <Wraper>
-    <form action="" className='form'>
+    <Form method='post' action="" className='form'>
         <Logo/>
         <h4>Register</h4>
         <FormRow
@@ -47,7 +50,7 @@ const Register = () => {
         />
         <button type="submit" className='btn btn-block'>submit</button>
         <p>Already a member? <Link to="/login" className='member-btn'>Login</Link></p>
-    </form>
+    </Form>
    </Wraper>
   )
 }
