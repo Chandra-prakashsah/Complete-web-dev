@@ -1,0 +1,190 @@
+# React.js Roadmap
+
+## 1. React Fundamentals
+
+* JSX
+* Virtual DOM
+* Reconciliation
+* Component Lifecycle
+* Functional Components
+* Class Components
+* Controlled Components
+* Uncontrolled Components
+
+---
+
+## 2. React Hooks
+
+* useState
+* useEffect
+* useContext
+* useReducer
+* useRef
+* useMemo
+* useCallback
+* useLayoutEffect
+* useImperativeHandle
+* useTransition
+* useDeferredValue
+* useId
+* Custom Hooks
+
+---
+
+## 3. React Rendering
+
+* Render Cycle
+* Re-rendering
+* Parent-Child Re-rendering
+* React.memo
+* Memoization Techniques
+* Concurrent Rendering
+* Suspense
+* Lazy Loading
+
+---
+
+## 4. State Management
+
+* Context API
+* Redux
+* Redux Toolkit
+* RTK Query
+* Zustand
+* Recoil (Good to Know)
+* State Normalization
+
+---
+
+## 5. Data Fetching
+
+* Fetch API
+* Axios
+* React Query (TanStack Query)
+* SWR
+* Caching
+* Pagination
+* Infinite Scrolling
+* Optimistic Updates
+
+---
+
+## 6. Performance Optimization
+
+* React.memo
+* useMemo
+* useCallback
+* Lazy Loading
+* Code Splitting
+* Bundle Optimization
+* Tree Shaking
+* Dynamic Imports
+* Virtualization (react-window)
+
+---
+
+## 7. Advanced React Patterns
+
+* Compound Components
+* Render Props
+* Higher Order Components (HOC)
+* Custom Hooks Pattern
+* Headless Components
+* Provider Pattern
+
+---
+
+## 8. Forms & Validation
+
+* React Hook Form
+* Formik
+* Yup
+* Zod
+* Dynamic Forms
+* Nested Forms
+* Multi-Step Forms
+
+---
+
+## 9. Routing
+
+* React Router v6+
+* Nested Routes
+* Protected Routes
+* Dynamic Routes
+* Route Guards
+
+---
+
+## 10. Testing
+
+* Jest
+* React Testing Library
+* Mocking APIs
+* Unit Testing
+* Integration Testing
+* Cypress
+* Playwright
+
+---
+
+## 11. Accessibility
+
+* ARIA Attributes
+* Keyboard Navigation
+* Screen Readers
+* Semantic HTML
+
+---
+
+## 12. Error Handling
+
+* Error Boundaries
+* Global Error Handling
+* Async Error Handling
+
+---
+
+## 13. Security
+
+* XSS Prevention
+* CSRF Protection
+* Secure Authentication
+* Token Management
+
+---
+
+## 14. React Architecture
+
+* Feature-Based Folder Structure
+* Atomic Design
+* Modular Architecture
+* Reusable Component Design
+* Design Systems
+
+---
+
+## 15. React Interview Topics
+
+* Virtual DOM vs Real DOM
+* Reconciliation Algorithm
+* React.memo vs useMemo
+* useMemo vs useCallback
+* Context vs Redux
+* Controlled vs Uncontrolled Components
+* React Lifecycle
+* Hooks Internals
+* State Management Strategies
+
+---
+
+## 16. Must Build Yourself
+
+* Custom Modal
+* Custom Toast
+* Infinite Scroll
+* Debounced Search
+* Data Table
+* Form Builder
+* Authentication Flow
+* Reusable Component Library

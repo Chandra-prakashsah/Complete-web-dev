@@ -57,9 +57,9 @@ process.env.variable_name
 
 mongo db:-
 mongo db is a NoSQL database that stores data in a flexible, JSON-like format.
-It is desined for high volume data storage.
-Mongo db most commnly used with Node js.
-Mongodb provide powerfull aggregation.
+It is designed for high volume data storage.
+Mongo db most commonly used with Node js.
+Mongodb provide powerful aggregation.
 
 install mongo db:-
 npm install mongodb

@@ -1,0 +1,466 @@
+# Node.js + Express.js + MongoDB
+
+## 1. Node.js Fundamentals
+
+### Core Concepts
+
+* Event Loop
+* Non-Blocking I/O
+* Single Threaded Architecture
+* Worker Threads
+* Event Emitters
+* Streams
+* Buffers
+* Process Object
+* Timers
+* Cluster Module
+
+### Module System
+
+* CommonJS
+* ES Modules
+* Dynamic Imports
+
+### File System
+
+* Read File
+* Write File
+* Streams
+* File Uploads
+
+---
+
+## 2. Asynchronous Programming
+
+* Callback Functions
+* Promises
+* Async/Await
+* Promise.all()
+* Promise.allSettled()
+* Promise.race()
+* Promise.any()
+* Error Handling
+* Retry Mechanisms
+
+---
+
+## 3. Express.js Fundamentals
+
+### Routing
+
+* GET
+* POST
+* PUT
+* PATCH
+* DELETE
+
+### Middleware
+
+* Built-in Middleware
+* Custom Middleware
+* Third-Party Middleware
+* Error Middleware
+
+### Request Lifecycle
+
+* req Object
+* res Object
+* next()
+
+---
+
+## 4. REST API Development
+
+* REST Principles
+* Resource Naming
+* API Versioning
+* Pagination
+* Filtering
+* Sorting
+* Searching
+* Validation
+* Response Standardization
+
+### API Best Practices
+
+* Status Codes
+* Error Responses
+* Rate Limiting
+* Idempotency
+
+---
+
+## 5. Authentication & Authorization
+
+### Authentication
+
+* JWT
+* Refresh Tokens
+* Access Tokens
+* Session Authentication
+* OAuth 2.0
+
+### Authorization
+
+* Role Based Access Control (RBAC)
+* Permission Based Access Control
+* Resource Level Authorization
+
+### Social Login
+
+* Google Login
+* Apple Login
+* Facebook Login
+
+---
+
+## 6. Security
+
+### Security Concepts
+
+* XSS
+* CSRF
+* SQL Injection
+* NoSQL Injection
+* Brute Force Protection
+* Clickjacking
+
+### Security Libraries
+
+* Helmet
+* CORS
+* bcrypt
+* express-rate-limit
+
+### Secure Practices
+
+* Password Hashing
+* Secure Cookies
+* Environment Variables
+* Secrets Management
+
+---
+
+## 7. MongoDB Fundamentals
+
+### CRUD Operations
+
+* Insert
+* Find
+* Update
+* Delete
+
+### Query Operators
+
+* $in
+* $gt
+* $lt
+* $or
+* $and
+* $regex
+
+### Aggregation Pipeline
+
+* $match
+* $group
+* $lookup
+* $project
+* $sort
+* $facet
+
+---
+
+## 8. MongoDB Schema Design
+
+### Relationships
+
+* One-to-One
+* One-to-Many
+* Many-to-Many
+
+### Techniques
+
+* Embedding
+* Referencing
+* Population
+
+### Optimization
+
+* Indexing
+* Compound Indexes
+* Text Indexes
+* TTL Indexes
+
+---
+
+## 9. Mongoose
+
+### Core Topics
+
+* Schemas
+* Models
+* Validation
+* Middleware (Hooks)
+* Virtuals
+* Static Methods
+* Instance Methods
+
+### Advanced Topics
+
+* Transactions
+* Sessions
+* Aggregation
+* Populate Optimization
+
+---
+
+## 10. Error Handling
+
+* Global Error Handler
+* Async Error Wrapper
+* Custom Error Classes
+* Logging Errors
+* Operational vs Programming Errors
+
+---
+
+## 11. Logging & Monitoring
+
+### Logging
+
+* Winston
+* Morgan
+
+### Monitoring
+
+* PM2
+* Health Checks
+* Application Metrics
+
+### Error Tracking
+
+* Sentry
+
+---
+
+## 12. Caching
+
+### Redis
+
+* Installation
+* Caching API Responses
+* Session Storage
+* Pub/Sub
+
+### Caching Strategies
+
+* Cache Aside
+* Write Through
+* Write Back
+
+---
+
+## 13. File Uploads
+
+### Local Storage
+
+* Multer
+
+### Cloud Storage
+
+* AWS S3
+* Cloudinary
+
+### Features
+
+* Image Upload
+* PDF Upload
+* Video Upload
+
+---
+
+## 14. Real-Time Applications
+
+### Socket.IO
+
+* Real-Time Messaging
+* Notifications
+* Online Status
+* Typing Indicators
+
+### WebSockets
+
+* Connection Lifecycle
+* Scaling Socket Servers
+
+---
+
+## 15. Background Jobs
+
+### Queues
+
+* BullMQ
+* Agenda
+
+### Use Cases
+
+* Email Sending
+* Notification Processing
+* Report Generation
+
+---
+
+## 16. API Documentation
+
+* Swagger/OpenAPI
+* Postman Collections
+* API Versioning
+
+---
+
+## 17. Testing
+
+### Unit Testing
+
+* Jest
+
+### Integration Testing
+
+* Supertest
+
+### Mocking
+
+* Mock Database
+* Mock APIs
+
+---
+
+## 18. Performance Optimization
+
+### Node.js Optimization
+
+* Event Loop Optimization
+* Memory Management
+* Streaming
+
+### Database Optimization
+
+* Query Optimization
+* Aggregation Optimization
+* Indexing Strategy
+
+### API Optimization
+
+* Pagination
+* Compression
+* Caching
+
+---
+
+## 19. Microservices
+
+### Concepts
+
+* Service Communication
+* API Gateway
+* Service Discovery
+
+### Communication
+
+* REST
+* Message Queues
+
+### Patterns
+
+* Saga Pattern
+* Circuit Breaker
+
+---
+
+## 20. System Design Concepts
+
+### Scalability
+
+* Horizontal Scaling
+* Vertical Scaling
+
+### Architecture
+
+* Monolith
+* Modular Monolith
+* Microservices
+
+### Design Topics
+
+* Design URL Shortener
+* Design Chat Application
+* Design Notification System
+* Design E-Commerce Backend
+
+---
+
+## 21. DevOps Basics
+
+### Docker
+
+* Dockerfile
+* Docker Compose
+
+### CI/CD
+
+* GitHub Actions
+* Jenkins Basics
+
+### Deployment
+
+* AWS EC2
+* Render
+* Railway
+* Vercel Backend Deployment
+
+---
+
+## 22. Advanced Backend Topics
+
+* Event Driven Architecture
+* CQRS
+* Message Queues
+* Kafka Basics
+* RabbitMQ Basics
+* Distributed Systems Basics
+* Rate Limiting
+* API Gateway
+* Reverse Proxy (Nginx)
+
+---
+
+## 23. Must Build Yourself
+
+### Project 1
+
+* Authentication System
+* JWT + Refresh Tokens
+
+### Project 2
+
+* E-Commerce Backend
+* Product Management
+* Order Management
+* Payment Integration
+
+### Project 3
+
+* Real-Time Chat Application
+* Socket.IO
+* Redis
+
+### Project 4
+
+* SaaS Backend
+* Multi-Tenant Architecture
+
+### Project 5
+
+* URL Shortener
+* Redis Cache
+* Analytics Dashboard
